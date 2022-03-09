@@ -1,9 +1,14 @@
 # Cookies
-    - Because HTTP request are stateless we need some way to create a **persistence** acroos connections and what we needed is cookies
-  ![alt text]("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.elegantthemes.com%2Fblog%2Fwordpress%2Fwhat-are-cookies-and-how-do-they-work&psig=AOvVaw2fpPy1BWUuYSLZUEvR4FkE&ust=1646915266225000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJChqNCDufYCFQAAAAAdAAAAABAK")
+
+    - Because HTTP request are stateless we need some way to create a **persistence** iacroos connections and what we needed is cookies 
+  ![alt text]("https://www.elegantthemes.com/blog/wp-content/uploads/2020/10/shutterstock_1295870983.png")
+
     - cookies are little pieces of data and are <= 4kb in size and sent down by a website to your browser
+  
     - try to look at the architecture of the cookies and see what you got
+     
   ![alt text]("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.semanticscholar.org%2Fpaper%2FHTTP-Session-Management%253A-Architecture-and-Cookies-Ayadi-Serhrouchni%2Fb95d17add8780a8e126e788c61227b3a32fa5dd5&psig=AOvVaw1s4BUXIMhy8V8IrrnMUGRY&ust=1646916138676000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKD92O2GufYCFQAAAAAdAAAAABAD")
+
     - Also we have some rules here:
       - 1. The cookie is always saved in the client side
       - 2. A cookie is a giant hashmap that store that cookie
